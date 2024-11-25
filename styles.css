@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 236, 236);
+    font-family: sans-serif;
+}
+
+#header {
+    height: 10%;
+    width: 100%;
+    padding-left: 2.5%;
+    padding-right: 6%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(245, 236, 236);
+}
+
+#header .logo {
+    padding-top: 10px;
+    height: 88%;
+    width: auto;
+    display: flex;
+}
+
+#header .nav-bar {
+    padding: 28px;
+    font-size: medium;
+    width: 33%;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#header .nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+#hero {
+    margin: 5% auto 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form input {
+    margin: 20px auto 0;
+    padding-left: 10px;
+    height: 28px;
+    width: 300px;
+}
+
+#form button {
+    margin: 18px auto;
+    padding: 0 20px;
+    height: 28px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    background: rgb(241, 196, 15);
+    cursor: pointer;
+}
+
+#Features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+#Features .klanish {
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    padding: 1.5%;
+}
+
+#Features .klanish i {
+    font-size: 45px;
+    color: #ff8c00;
+    width: 120px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    margin: 5% auto;
+}
+
+#how-it-works iframe {
+    width: 100%;
+}
+
+#Pricing {
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 60%;
+    justify-content: space-between;
+}
+
+#Pricing ol {
+    list-style: none;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#Pricing .product {
+    border: 1px solid black;
+    width: 300px;
+    height: 310px;
+    border-radius: 3px;
+    letter-spacing: normal;
+}
+
+
+.product .level {
+    background-color: rgb(226, 226, 226);
+    padding: 5%;
+    font-size: 15px;
+    letter-spacing: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product h2 {
+    padding: 6%;
+}
+
+.product button {
+    margin: 20px auto 15px;
+    padding: 4%;
+    height: 43px;
+    width: 35%;
+    font-size: large;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    background: rgb(241, 196, 15);
+    cursor: pointer;
+}
+
+#down-part {
+    margin: 0 auto;
+    width: 62%;
+    height: 70px;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
+}
+
+#down-part .bachum {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+#down-part .bachum ul {
+    display: flex; 
+    flex-direction: row; 
+    gap: 15px; 
+    padding: 0; 
+    margin: 0; 
+    list-style: none; 
+}
+
+#down-part .bachum ul li a {
+    text-decoration: none; 
+    color: black;
+    font-size: 14px;
+}
+
+#down-part .bachum div {
+    font-size: 12px; 
+    margin-top: 10px; 
+}
